@@ -1,0 +1,303 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.header{
+	background-color: #CF5C36;
+ width:100%; 
+ height:100px;
+ }
+ body{
+	 color:#333333;
+ }
+.aside{
+	background-color:#EFC88B; 
+	width:100%; 
+	height:4870px; 
+	float:left;
+	/* transition:background-color, 0.5s; */
+	transition:background-color 0.25s ease;
+	margin-left:5px;
+}
+.aside:hover{
+	background-color:#CF5C36;
+}
+.col-md-10{
+	padding:0 !important;
+}
+.col-md-2{
+	padding:0 !important;
+}
+.main{
+	width:100%;
+	 float:left;
+	 background-color:#F4E3B2;
+	 height:4800px;
+	 border-left: 12px solid #CF5C36;
+	 height:4870px; 
+	 margin:0;
+	}
+p{
+	color:#050517;
+	font-family: 'Amiri', serif;
+	text-indent:35px;
+	text-align: justify;
+	padding:55px;
+	
+	}
+
+h2{
+	font-family: 'Ovo', serif !important; 
+	letter-spacing:5px;
+	text-align:center;
+	padding:65px;
+	margin-bottom:45px;
+	/* border-bottom: 2px solid transparent;
+	transition: border-bottom 1s; */
+	
+}
+/* h2:hover{
+	border-bottom: 2px solid #CF5C36 ;
+} */
+h1{
+	font-family: 'Ovo', serif !important;
+	font-size:65px !important;
+	
+	margin-left:35px;
+	transition: margin-left 1s;
+	z-index:4;
+	text-align:center;
+	font-weight:bold;	
+	
+	
+	
+
+}
+
+h1:hover{
+	margin-left:145px;
+	
+}
+.icon{
+	width:20px;
+	height:20px;
+}
+a{
+	text-decoration:none !important;
+	color:#CF5C36 !important;
+	font-family: 'Amiri', serif;
+}
+.stema{
+	width:195px !important;
+	height:202px !important ;
+	margin:10%;
+	
+}
+.nav{width:100%;
+height:100px;
+float:left;
+font-family: 'Amiri', serif;}
+
+.titlu{width:100%;
+height:100px;
+float:left;
+font-weight:bold !important;
+font-size:45px;
+padding-bottom:25px !important;
+color:black;
+}
+
+.buton{
+	float:right;
+	height:45px;
+	width:155px;
+	padding:10px;
+	background-color: #F4E3B2;
+	box-sizing:border-box;
+	/* outline-offset: 5px;
+	outline-color:#EFC88B;
+	outline-width: 2px; */
+	/* border:solid  2px #EFC88B; */
+	transition: margin-top .4s;
+	text-align: center;
+	font-family: 'Amiri', serif;
+	/* margin-left:89px;  */
+	font-size: 14px;
+	letter-spacing:2px;
+	margin-bottom:55px;
+	margin-top:55px;
+
+}
+
+.buton:hover{
+	margin-top:35px;
+	/* box-shadow: 0px 3px 0px white ; */
+	
+}
+.buton1{
+	width:155px;
+	padding-bottom:95px;
+}
+.buton2{
+	width:155px;
+	padding-bottom:95px;
+}
+.buton3{
+	padding-bottom:95px;
+	
+}
+th{
+	font-size:35px;
+	color:#333333;
+}
+.pano{
+	height:350px;
+	width:550px;
+	z-index:1;
+	margin-left:-45px;
+	position:relative;
+	float:right;
+	margin-top: 55px;
+	
+}
+.section{
+	padding:45px !important;
+	
+	height:700px;
+	width:100%;
+}
+.istorie{
+	height:750px;
+}
+.cultura{
+	height:700px;
+	
+}
+.culturatext{
+	padding: 25px;
+	
+}
+.informatii{
+	height:900px;
+}
+.festival{height:700px;}
+table,th,td{
+	border:0px;
+	border-collapse: collapse;	
+font-family: 'Amiri', serif;	
+	color:black;
+	margin-top:15px;
+	margin-bottom:15px; 
+	background-color:#F4E3B2;
+	padding:3px;
+	text-align: center;
+	
+	
+}
+.invat{height:900px;}
+
+
+table td:hover{ font-weight:bold;}
+caption{padding-top: 5px;
+margin-bottom:5px; 
+color:#333333;
+font-size:25px;}
+th{
+	border-bottom:1px solid #CF5C36	;
+	color:#333333;
+	font-size:22px;
+	letter-spacing:6px;
+}
+td{
+	border-bottom:1px solid #CF5C36;
+	height:45px;
+	color:#333333;
+	font-size: 14px
+}
+table{
+	margin-top:45px;
+	margin-left:45px;
+	color:#333333;
+}
+p:first-letter{
+	font-size: 25px;
+}
+iframe{
+	margin:auto;
+	padding-bottom:10px;
+	display:block;
+}
+img{
+	height:auto;
+	width:auto;
+	
+}
+.size{
+	height:50%;
+	width:70%;
+	margin:25px;
+}
+.right{text-align:right;
+width:45%;
+float:right;}
+.normal{
+	text-align:left;
+width:100%;
+float:left;
+margin-top:10px;
+}
+.lung{
+	width:100%;
+	padding:15px;
+}
+.left{
+	text-align:left;
+width:45%;
+float:left;
+padding:45px;
+}
+.buton4{width:165px; 
+
+}
+.buton5{width:145px;
+margin-top:15px;}
+.buton6{width:135px;
+margin-top:15px;}
+.buton4 .buton5 .buton6:hover{
+	margin-right:95px;
+}
+.credits{
+	height:25px;
+	width:100%;
+	text-align:center;
+	color:#050517;
+	font-family: 'Amiri', serif;
+
+
+	
+}
+
+.bunvenit{
+	font-family: 'Ovo', serif;
+	letter-spacing:5px;
+	text-align:center;
+	padding:35px !important;
+	margin-bottom:45px !important;
+	margin-left:15px;
+	transition: border-bottom 1s;
+}
+
+.tag{
+	text-align:right;
+	margin-right:0px !important;
+	padding:45px 35px 45px 75px !important;
+	
+}
+.maimare{
+	font-size:45px;
+	padding:25px;
+}
